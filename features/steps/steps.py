@@ -10,9 +10,6 @@ def step_impl(context):
     response = requests.post(url = context.api_url, headers = {'content-type': 'application/json'})
     response = response.json();
 
-    if 'message' in response:
-        context.message = response['message']
-
     if 'result' in response:
         context.result = response['result']
 
