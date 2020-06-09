@@ -25,7 +25,6 @@ def step_impl(context, total):
     else:
         assert False
 
-
 # RESTA
 @given('a {num1} and {num2} values to substract')
 def step_impl(context, num1, num2):
@@ -50,7 +49,6 @@ def step_impl(context, total):
     else:
         assert False
 
-
 # MULTIPLICACIÓN
 @given('a {num1} and {num2} values to multiply')
 def step_impl(context, num1, num2):
@@ -74,7 +72,6 @@ def step_impl(context, total):
         assert (context.result == total)
     else:
         assert False
-
 
 # DIVISIÓN
 @given('a {num1} and {num2} values to divide')
