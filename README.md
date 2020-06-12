@@ -27,7 +27,7 @@ Scenario Outline: Obtener la (suma,resta,multiplicación,división) de dos núme
 
   Examples: values
   | num1 | num2 | total |
-  | 1    | 2    | 3    |
+  | 1    | 2    | 3     |
   | 5    | 3    | 8     |
   | 15   | 33   | 48    |
 ```
