@@ -23,6 +23,7 @@ def step_impl(context, total):
     if 'result' in context:
         assert (context.result == total)
     else:
+        print(content.message)
         assert False
 
 # RESTA
